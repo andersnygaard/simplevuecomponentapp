@@ -6,9 +6,9 @@ export function install(Vue:any):void {
 }
 
 // create module definition for Vue.use()
-const plugin: any = {
+const components: any = {
 	install,
 };
 
 // to allow use as module (npm/webpack/etc.) export component
-export default component;
+export default components;
